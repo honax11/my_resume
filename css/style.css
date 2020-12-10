@@ -549,6 +549,7 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 30px;
+  
 }
 
 .calculator-form-title{
@@ -564,7 +565,34 @@
   padding: 30px 25px;
 }
 
+.calculator-form-select {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--c-grey-light);
+  padding: 5px 0 17px 0;
+}
+.calculator-form-input-radio-conteiner{
+  display: flex;
+  align-items: center;
+  
+}
+.calculator-form-input-label{
+  margin-right: 20px;
+}
 
+.calculator-form-input-field{
+  margin-right: 10px;
+}
+.calculator-form-total-cost{
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 150%;
+  color: var(--txt-c-dark);
+  margin: 0;
+}
+.calculator-form-total{
+  margin: 0;
+}
 
 /* footer section*/
 .footer-my-name{

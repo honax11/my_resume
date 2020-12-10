@@ -326,15 +326,35 @@
           <form action="" class="form-calculator">
             <div class="calculator-form-input">
               <label for="calculator-form-website-type" class="calculator-form-title">What should be done:</label>
-              <select name="website-type" id="calculator-form-website-type">
+              <select name="website-type" id="calculator-form-website-type" class="calculator-form-select">
                 <option value="landing-page">Landing page</option>
                 <option value="landing-page">Websit</option>
               </select>
             </div>
             <div class="calculator-form-input">
               <label for="calculator-form-technologi" class="calculator-form-title">Choose preferred technologi</label>
-              <select name="technologi" id="calculator-form-technologi"></select>
+              <select name="technologi" id="calculator-form-technologi">
+                <option value="CSS">CSS</option>
+                <option value="HTML">HTML</option>
+                <option value="javascript">JavaScript</option>
+              </select>
             </div>
+            <div class="calculator-form-input">
+              <label for="" class="calculator-form-title">Personal account and shopping cart:</label>
+              <div class="calculator-form-input-radio-conteiner">
+                <input type="radio" class="calculator-form-input-field" id="calculator-form-input-yes" name="yes">
+                <label for="calculator-form-input-yes" class="calculator-form-input-label">YES</label>
+                <input type="radio" class="calculator-form-input-field" id="calculator-form-input-no" name="no">
+                <label for="calculator-form-input-no" class="calculator-form-input-label">NO</label>
+                           
+              </div>
+            </div>
+            <div class="calculator-form-input">
+            <p class="calculator-form-total">Cost:</p>
+            <p class="calculator-form-total-cost">300$</p>
+            </div>
+
+            <input type="submit" value="Find out the cost -" class="accent-btn">
           </form>
         </div>
       </section>
@@ -356,5 +376,7 @@
 
         </div>
       </footer>
+
+
 </body>
 </html>
